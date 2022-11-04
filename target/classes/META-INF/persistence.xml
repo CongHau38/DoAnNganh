@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.btl_MXHTuThien_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.btl.pojos.User</class>
+    <class>com.btl.pojos.Hinhanh</class>
+    <class>com.btl.pojos.Baiviet</class>
+    <class>com.btl.pojos.Daugia</class>
+    <class>com.btl.pojos.Binhluan</class>
+    <class>com.btl.pojos.Report</class>
+    <class>com.btl.pojos.Thich</class>
+    <class>com.btl.pojos.Vatpham</class>
+    <class>com.btl.pojos.Phanhoi</class>
+    <class>com.dan.pojos.Daugia</class>
+    <class>com.dan.pojos.Phanhoi</class>
+    <class>com.dan.pojos.Report</class>
+    <class>com.dan.pojos.Baiviet</class>
+    <class>com.dan.pojos.User</class>
+    <class>com.dan.pojos.Vatpham</class>
+    <class>com.dan.pojos.Thich</class>
+    <class>com.dan.pojos.ChitietHoadon</class>
+    <class>com.dan.pojos.Nguoidung</class>
+    <class>com.dan.pojos.Banh</class>
+    <class>com.dan.pojos.Binhluan</class>
+    <class>com.dan.pojos.Taikhoan</class>
+    <class>com.dan.pojos.Hoadon</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/charity?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="1234"/>
+    </properties>
+  </persistence-unit>
+</persistence>
